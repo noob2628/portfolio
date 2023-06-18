@@ -7,6 +7,7 @@ require "php/add_contact.php";?>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
   <title>Contact Me Page</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
@@ -32,10 +33,13 @@ require "php/add_contact.php";?>
       <div class="row">
         <div class="col-md-6 p-5 bg-primary text-white">
           <h1>Hire me please.</h1>
-          <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,</h4>
+          <h4>Don't miss the opportunity to leverage my skills and expertise. 
+            By hiring me, you can elevate your company's IT capabilities, 
+            harness the power of data analysis, 
+            and optimize warehouse management for improved efficiency and customer satisfaction.</h4>
         </div>
         <div class="col-md-6 border-left py-3">
-          <h1>Contact form</h1>
+          <h1>Contact Form</h1>
           <div class="form-group">
             <h5 for="name">Name</h5>
             <input

@@ -11,7 +11,7 @@ require "php/session.php";
 
   <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Harold Lachica | A Web Developer based in Manila, Philippines.
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
@@ -52,7 +52,7 @@ require "php/session.php";
         </h1>
         <!-- Put a small paragraph about yourself -->
         <p>A Web Developer based in Manila, Philippines.</p>
-        <a href="contact.html" class="btn btn--pink">Hire me?</a>
+        <a href="contact.php" class="btn btn--pink">Hire me?</a>
       </div>
     </div>
   </header>
@@ -82,10 +82,10 @@ require "php/session.php";
               </ul>
 
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                <a href="" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/noob2628/portfolio" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
@@ -94,62 +94,9 @@ require "php/session.php";
               <img src="./images/project-1.png" class="work__image" alt="Project 1" />
             </div>
           </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Calculator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
-            </div>
-          </div>
+          <!--
+          add another work here
+          -->
         </div>
       </div>
     </section>
@@ -180,10 +127,17 @@ require "php/session.php";
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+            As a self-taught web developer, 
+            I embrace the challenge of learning through hands-on experience and self-guided study. 
+            I am constantly exploring new technologies, 
+            frameworks, and programming languages to stay up-to-date with the latest industry trends. 
+            Through online resources, tutorials, and engaging in practical projects, 
+            I am building a solid foundation in HTML, CSS, JavaScript, 
+            and other essential web development tools. 
+            My self-motivation and resourcefulness enable me to tackle complex coding problems with perseverance and creativity. 
+            I am adept at breaking down tasks, troubleshooting issues, and finding efficient solutions. 
+            I am continuously seeking opportunities to enhance my coding abilities, 
+            improve my understanding of web development principles, and refine my skills in front-end and back-end development.
             </p>
             <!-- Provide a link to your resume -->
             <a href="#" class="btn">My Resume</a>
@@ -191,7 +145,7 @@ require "php/session.php";
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <img class="about__photo" src="./images/x.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -208,23 +162,27 @@ require "php/session.php";
     <div class="row">
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
+        <!--
         <li class="footer__social-link-item">
           <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
             <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
           </a>
         </li>
+        -->
         <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+          <a href="https://github.com/noob2628" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
+        <!--
         <li class="footer__social-link-item">
           <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
             <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
           </a>
         </li>
+        -->
         <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/harold-lachica-73418b19a/">
+          <a href="https://www.linkedin.com/in/harold-lachica-73418b19a/">
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
@@ -232,11 +190,11 @@ require "php/session.php";
 
       <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
       <p>
-        &copy; 2023 - Template designed & developed by <a href="https://www.linkedin.com/in/harold-lachica-73418b19a/" class="link">Harold</a>.
+        &copy; 2023 - Template designed & developed by <a href="https://www.linkedin.com/in/harold-lachica-73418b19a" class="link">Harold</a>.
       </p>
       <div class="footer__github-buttons">
         <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          src="https://ghbtns.com/github-btn.html?user=noob2628&repo=portfolio&type=watch&count=true"
           frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
         </iframe>
       </div>
