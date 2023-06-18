@@ -13,6 +13,9 @@
 - Loads fast ⚡.
 
 ### Contributions are warmly welcomed ❤️.
+- Login and Signup Functions
+- Using sessions upon login
+- Send me an email function.
 
 ## Getting Started 🚀
 
