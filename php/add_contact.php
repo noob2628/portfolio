@@ -21,9 +21,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       "message" => "Database connection error: " . $conn->connect_error
     ];
   } else {
-    // Insert form data into the database
-    $sql = "INSERT INTO contacts (name, email, message) VALUES ('$name', '$email', '$message')";
-    if ($conn->query($sql) === TRUE) {
+    // Prepare the SQL statement
+    $stmt = $conn->prepare("INSERT INTO contacts (name, email, message) VALUES (?, ?, ?)");
+    $stmt->bind_param("sss", $name, $email, $message);
+
+    // Execute the prepared statement
+    if ($stmt->execute()) {
       // Insertion successful
       $response = [
         "success" => true,
@@ -33,10 +36,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       // Insertion failed
       $response = [
         "success" => false,
-        "message" => "Error: " . $sql . "<br>" . $conn->error
+        "message" => "Error: " . $stmt->error
       ];
     }
 
+    // Close the statement
+    $stmt->close();
     // Close the database connection
     $conn->close();
   }
@@ -45,4 +50,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   header("Content-Type: application/json");
   echo json_encode($response);
 }
+
 ?>
