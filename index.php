@@ -18,7 +18,7 @@ require "php/session.php";
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="Put your name, skills and some coding keywords" />
   <link rel="stylesheet" href="css/index.css" />
-
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script type="text/javascript">(function(){emailjs.init("6fmv2rmmfccI3W3Mp"); })();</script>
 </head>
@@ -39,7 +39,7 @@ require "php/session.php";
           <li class="nav__item">
             <a href="contact.php" class="nav__link">Contact</a>
           </li>
-          <li class="nav__item"><a href="?logout" class="nav__link" onclick="return confirmLogout()">Logout</a></li>
+          <li class="nav__item"><a href="?logout" class="nav__link" id="logoutBtn">Logout</a></li>
           
         </ul>
       </nav>
